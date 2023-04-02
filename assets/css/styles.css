@@ -1,0 +1,16 @@
+/*esto es un comentario en css*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+*{
+     font-family: 'Alkatra', cursive;
+}
+
+.bg-navbar{
+    background-color: rgb(77, 184, 77);
+
+}
+
+.btn{
+    color: rgb(27, 29, 2);
+}
