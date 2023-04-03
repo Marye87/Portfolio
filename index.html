@@ -28,11 +28,11 @@
     <!-- navbar  -->
     <nav class="navbar navbar-expand-lg bg-navbar">
         <div class="container fluid">
-             <div class="container"> 
-                <a class="navbar-brand" href="#">
-                  <img src="assets/images/logo.png" alt="Logo de Argentina Programa">
-                </a>
-            </div>
+          <div class="container"> 
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo.png" alt="Logo de Argentina Programa">
+            </a>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -51,52 +51,135 @@
         </div>
       </nav>
      <!-- portada  -->
-     <div id="profile-background" class="carousel slide">
+     <!-- <div id="profile-background" class="carousel slide">-->
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <!-- <div class="carousel-item active"> -->
             <img src="assets/images/portada.jpg" class="d-block w-100" alt="paisaje de la sierra de Córdoba, con un arcoiris">
-          </div>        
-        </div> 
-      </div>
+        </div>        
+        <!-- </div>
+      </div>  -->
+
+
       <!-- primer apartado, presentación -->
-      <div class="card mat-card" id="first-card"> 
+       <div class="card mat-card" id="first-card"> 
+        <!-- foto perfil -->
         <div id="info-img">
-           <img class="profile-image" src="assets/images/yo.jpg"></img> <!--imagen-->
+          <img class="profile-image" src="assets/images/yo.jpg"></img> <!--imagen-->
           <div class="btn-edit">
-            <a href="#" class="bnt-right">
-                <i class="fa fa-pen"></i>
-            </a>
+           <a href="#" class="bnt-right">
+             <i class="fa fa-pen"></i>
+           </a>
           </div>
+          
+        </div>
+          <!-- datos personales -->
           <div id="info-data">
             <div class="row">
-              <div class ="col-sm-8"><h1>Mariela Vanesa Vallejos</h1>
+              <div class ="col-sm-7"><h1>Mariela Vanesa Vallejos</h1>
                 <div id="info-company">Docente</div>
-                <div id="info-contact"><span>Sauce Arriba, Córdoba, Argentina</span><br>
+                 <div id="info-contact"> 
+                  <span>Sauce Arriba, Córdoba, Argentina</span><br>
                   <span><a href="#">Información de contacto</a></span>
                 </div>
               </div>
        
               <div class="col-sm-4">
                 <ul id="info-details">
-                  <li><a herf="#"><img src="assets/images/logo-virgen.png"> <!--escudo-->
+                  <li><a herf="#"><img src="assets/images/logo-virgen.png" width="100" > 
                     <h5>Profesora EGB 1 y 2</h5></a> 
                   </li>
-                  <li><a herf="#"><img src="assets/images/logo_unipe.png"> <!--logo-->
+                  <li><a herf="#"><img src="assets/images/logo_unipe.png" width="200"> 
                     <h5>Licenciada alfabetización en la educacion primaria</h5></a>
                   </li>
                 </ul>
               </div>
             </div>
+          </div>
+          <!-- botones -->
+          <div id="info-actions">
+           <button type="button" class="btn btn-outline-success">Tengo interés en</button>
+           <button type="button" class="btn btn-outline-success">Añadir Sección</button>
+           <button class="btn btn-light" type="button">Más</button>
+          </div>
        </div>
-       <div id="info-actions">
-         <button type="button" class="btn btn-outline-success">Tengo interés en</button>
-         <button type="button" class="btn btn-outline-success">Añadir Sección</button>
-          <button class="btn btn-light" type="button">Más</button>
-       </div>
+
+      <!-- segundo apartado -->
+       <div class="card mat-card">
+         <div class="card-titles">
+           <h2>Acerca de</h2>
+         </div>
+         <div>
+           <p class="text-center" id="text-acercade"> 
+          
+            Nací en la ciudad de Juan José Castelli (CHACO),
+            pero me críe en la cuidad de Rosario (SANTA FE).<br>
+            Allí estudia la carrera docente la cual ejercí en la 
+            misma cuidad por 4 años, realizando reemplazos.<br>
+            En el año 2015 me mude a Rafaela (SANTA FE), 
+            lugar donde tuve la posibilidad de titularizar.<br>
+            Con mi familia teniamos la idea de vivir en 
+            Traslasierra Córdoba, y alli nos fuimos en el año 2017, 
+            dejando mi cargo ya que no pude realizar el traslado.
+            Pensaba que resultaria fácil conseguir trabajo de 
+            mi profesión. Pero como esto lo resulto asi comence a 
+            realizar diversos cursos y capacitaciones que tenian
+            que ver con mi profesión y no. <br>
+            Así llegue a Argentina Programa para conocer  
+            un poco este mundo que me parece muy interesante.
+            Aprendi un montón y espero serguir, este trabajo 
+            de programacion que es más que interesante.</p>
+          </div>
+           <div class="btn-edit">
+              <a href="   " class="bnt-right">
+                <i class="fa fa-pen"></i>
+              </a>
+              <input type="text" id="in text">
+              <div class="btn-edit" onclick= "cambiar_parrafo()">
+              </div>
+            </div>
+        </div>
+
+      <!-- tercer apartado -->
+       <div class="card mat-card">
+          <div id="experiencia">
+            <div class="card-titles">
+              <h2>Experiencia</h2>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul id="info-details">
+                    <li><a herf="#"><img src="assets/images/logo_prov.chaco.png" width="100" > 
+                      <h5>Docente de 5°, 3° y 7°</h5></a> 
+                    </li>
+                    <li><a herf="#"><img src="assets/images/image (1).png" width="95"> 
+                    <h5>Docente de 3° y 4°</h5></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul id="info-details">
+                    <li><a herf="#"><img src="assets/images/logo-peralta.png" width="100" > 
+                      <h5>Docente de 5°</h5></a> 
+                    </li>
+                    <li><a herf="#"><img src="assets/images/image (2).png" width="100"> 
+                      <h5>Docente de 1°</h5></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+               </div>
+                <div class="btn-edit">
+                  <a herf="#" class="btn-right">
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div>
+            </div>
+          </div>
+             
+          
+        
     </div>
-
-
-
+   
 
     <!-- javascrip -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

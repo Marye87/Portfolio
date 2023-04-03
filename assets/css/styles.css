@@ -5,12 +5,67 @@
 *{
      font-family: 'Alkatra', cursive;
 }
-
+/*navbar*/
 .bg-navbar{
     background-color: rgb(77, 184, 77);
 
 }
-
+/*botones*/
 .btn{
     color: rgb(27, 29, 2);
 }
+/*poerada*/
+.carousel-inner{
+    border-radius: 0px 0px 15px 15px;
+
+}
+/*estructura de las secciones*/
+.mat-card {
+  border-radius: 15px;
+  margin: 5px 5px;
+  padding: 15px;
+  border-color: #08a321;
+}
+/*margenes de las tarjetas*/
+.mat-card#first-card {
+  padding: 15px;
+
+}
+/*foto de perfil*/
+div#profile-background {
+  display: flex;
+  z-index: 1;
+  
+}
+/*foto de perfil*/
+.profile-image {
+  border-radius: 15%;
+  width: 152px;
+  height: 152px;
+  margin-top: -115px;
+  z-index: 1;
+}
+
+div#profile-background img {
+width: 100%;
+border-radius: 32px 32px 32px 32px;
+}
+
+
+div#info-actions {
+display: flex;
+}
+
+/*.btn-edit{
+color:#08a321
+}
+.btn-right{
+  color:blueviolet
+}*/
+.fa-pen{
+  color: limegreen
+}
+.fa-plus{
+  color: green
+}
+       
