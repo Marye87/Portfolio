@@ -1,187 +1,766 @@
 <!DOCTYPE html>
 <html lang="span">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Mariela Vallejos, Argentina Programa, Portafolio">
-    <meta name="trabajo final de argentina programa, portafolio de presentación">
-    <meta http-equiv="refreh" content="30">
-    <meta name="author" content="Mariela Vallejos, vallejos87mariela@gmail.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
-    <title>Mi Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="Mariela Vallejos, Argentina Programa, Portafolio">
+  <meta name="trabajo final de argentina programa, portafolio de presentación">
+  <meta http-equiv="refreh" content="30">
+  <meta name="author" content="Mariela Vallejos, vallejos87mariela@gmail.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <!-- fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/4bce9e90f8.js" crossorigin="anonymous"></script>
-    <!-- css bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <!-- mi css  -->
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <title>Mi Portfolio</title>
+
+  <!-- fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/4bce9e90f8.js" crossorigin="anonymous"></script>
+  <!-- css bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!-- mi css  -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
+
 <body>
-    <!-- esto es un comentario en html -->
+  <!-- esto es un comentario en html -->
 
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg bg-navbar">
-        <div class="container fluid">
-          <div class="container"> 
-            <a class="navbar-brand" href="#">
-              <img src="assets/images/logo.png" alt="Logo de Argentina Programa">
+  <seccion>
+  <!-- navbar -->
+  <!--falta cambiar el enlace de contacto -->
+  <nav class="navbar navbar-expand-lg bg-navbar">
+    <div class="container fluid">
+        <!-- logo arg pro -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="Logo de Argentina Programa" width="300" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <li class="nav-item dropdown">
+         
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- enlace al face  -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="https://m.facebook.com/mariela.vallejos.944?eav=AfZaCgtsJ8oTLZJSrQqk_g8fNXCD9dBhBC8JvIPUC0oOYb79awm6pAVXheFUOQr15kg&paipv=0">
+              <i class="fa-brands fa-facebook"></i>
             </a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">face</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">linkeding</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contacto</a>
-              </li>
-            </ul>
-              <button class="btn btn-outline-success" type="submit">Registrate</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-     <!-- portada  -->
-     <!-- <div id="profile-background" class="carousel slide">-->
-        <div class="carousel-inner">
-          <!-- <div class="carousel-item active"> -->
-            <img src="assets/images/portada.jpg" class="d-block w-100" alt="paisaje de la sierra de Córdoba, con un arcoiris">
-        </div>        
-        <!-- </div>
-      </div>  -->
-
-
-      <!-- primer apartado, presentación -->
-       <div class="card mat-card" id="first-card"> 
-        <!-- foto perfil -->
-        <div id="info-img">
-          <img class="profile-image" src="assets/images/yo.jpg"></img> <!--imagen-->
-          <div class="btn-edit">
-           <a href="#" class="bnt-right">
-             <i class="fa fa-pen"></i>
-           </a>
-          </div>
+          </li>
+          <!-- enlace a github  -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://github.com/Marye87">
+              <i class="fa-brands fa-github"></i></a>
+          </li>
           
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page">Disabled</a>
+          </li>
+          
+        </ul>
+        <!-- boton modal de registro  -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#ModalReg">
+          <i class="fa-solid fa-person-walking-arrow-right"></i>
+        </button>
+      </div>
+  </nav>
+  </seccion>
+
+  <!-- portada  -->
+  <div class="carousel slide">
+    <div class="carousel-inner">
+      <img src="assets/img/portada.jpg" class="d-block w-100" alt="paisaje de la sierra de Córdoba, con un arcoiris">
+    </div>
+
+    <!-- boton de edición portada -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12">
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#ingresarFoto">
+            <i class="fa fa-pen"></i>
+          </button>
         </div>
-          <!-- datos personales -->
-          <div id="info-data">
-            <div class="row">
-              <div class ="col-sm-7"><h1>Mariela Vanesa Vallejos</h1>
-                <div id="info-company">Docente</div>
-                 <div id="info-contact"> 
-                  <span>Sauce Arriba, Córdoba, Argentina</span><br>
-                  <span><a href="#">Información de contacto</a></span>
-                </div>
+      </div>
+    </div>
+  </div>
+<section>
+  <!-- Presentación -->
+  <div class="card mat-card" id="first-card">
+    <!-- foto perfil -->
+    <div id="info-img">
+      <img src="assets/img/yo.jpg" class="rounded-5" alt="foto de perfil del usuario">
+      <!-- botón cambiar foto perfil  -->
+      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#ingresarFoto">
+        <i class="fa fa-pen"></i>
+      </button>
+    </div>
+      <!-- datos personales -->
+      <div id="info-data">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>Mariela Vanesa Vallejos</h1>
+              <div id="info-company">Docente. <br>
+                Full Stack Developer Jr.
               </div>
-       
-              <div class="col-sm-4">
-                <ul id="info-details">
-                  <li><a herf="#"><img src="assets/images/logo-virgen.png" width="100" > 
-                    <h5>Profesora EGB 1 y 2</h5></a> 
-                  </li>
-                  <li><a herf="#"><img src="assets/images/logo_unipe.png" width="200"> 
-                    <h5>Licenciada alfabetización en la educacion primaria</h5></a>
-                  </li>
-                </ul>
+              <div id="info-contact">
+                <span>Sauce Arriba, Córdoba, Argentina</span><br>
+                <span><a href="#">Información de contacto</a></span>
               </div>
             </div>
+            <!-- boton cambiar datos -->
+            <div class="col-sm-4">
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarDatos">
+                <i class="fa fa-pen"></i>
+              </button>                           
+            </div>
           </div>
-          <!-- botones -->
-          <div id="info-actions">
-           <button type="button" class="btn btn-outline-success">Tengo interés en</button>
-           <button type="button" class="btn btn-outline-success">Añadir Sección</button>
-           <button class="btn btn-light" type="button">Más</button>
-          </div>
-       </div>
+        </div>
+      </div>
+   
+    <!-- boton agregar seccion -->
+    <div id="info-actions">
+      <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#ModalAñadirSeccion">
+        Añadir Sección
+      </button>
+      
+    </div>
+  </div>
+</section>
 
-      <!-- segundo apartado -->
-       <div class="card mat-card">
-         <div class="card-titles">
-           <h2>Acerca de</h2>
-         </div>
-         <div>
-           <p class="text-center" id="text-acercade"> 
-          
-            Nací en la ciudad de Juan José Castelli (CHACO),
+<section>
+  <!-- segundo apartado -->
+  <div class="card mat-card">
+    <div id="tarjeta">
+      <div class="container text-center">
+        <div class="card-titles">
+          <h2>Sobre mi</h2>
+          <!-- boton edit sobre mi  -->
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarSobreMi">
+              <i class="fa fa-pen"></i>
+            </button>                           
+          <p>Nací en la ciudad de Juan José Castelli (CHACO),
             pero me críe en la cuidad de Rosario (SANTA FE).<br>
-            Allí estudia la carrera docente la cual ejercí en la 
+            Allí estudia la carrera docente la cual ejercí en la
             misma cuidad por 4 años, realizando reemplazos.<br>
-            En el año 2015 me mude a Rafaela (SANTA FE), 
+            En el año 2015 me mude a Rafaela (SANTA FE),
             lugar donde tuve la posibilidad de titularizar.<br>
-            Con mi familia teniamos la idea de vivir en 
-            Traslasierra Córdoba, y alli nos fuimos en el año 2017, 
+            Con mi familia teniamos la idea de vivir en
+            Traslasierra Córdoba, y alli nos fuimos en el año 2017,
             dejando mi cargo ya que no pude realizar el traslado.
-            Pensaba que resultaria fácil conseguir trabajo de 
-            mi profesión. Pero como esto lo resulto asi comence a 
+            Pensaba que resultaria fácil conseguir trabajo de
+            mi profesión. Pero como esto lo resulto asi comence a
             realizar diversos cursos y capacitaciones que tenian
             que ver con mi profesión y no. <br>
-            Así llegue a Argentina Programa para conocer  
+            Así llegue a Argentina Programa para conocer
             un poco este mundo que me parece muy interesante.
-            Aprendi un montón y espero serguir, este trabajo 
-            de programacion que es más que interesante.</p>
-          </div>
-           <div class="btn-edit">
-              <a href="   " class="bnt-right">
+            Aprendi un montón y espero serguir, este trabajo
+            de programacion que es más que interesante.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- tercer apartado experiencia-->
+  <div class="card mat-card">
+    <div id="tarjeta">
+      <div class="card-titles">
+        <h2>Experiencia</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-5">
+          <ul id="info-details">
+            <li>
+            
+              <img src="assets/img/logo_prov.chaco.png" class="rounded-4"alt="logo de la escuela N°1209 Provincia de Chaco, Pérez" width="100">  
+              <h5>Docente de 5°, 3° y 7°</h5>
+              <p>del 2011 al 2012</p>
+             
+                <!-- boton edit experiencia  -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarExperiencia">
+              <i class="fa fa-pen"></i>
+             </button>
+                   <!-- boton eliminar experiencia  -->
+             <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+              <i class="fa-solid fa-trash-can"></i>
+             </button>
+                
+              
+              </li>
+              <li>
+             
+              <img src="assets/img/imagen (1).png" class="rounded-4"alt="logo de la escuela N°1396 Santa Lucia, Rosario" width="95"> 
+              <h5>Docente de 3° y 4°</h5>
+              <p>del 2013 al 2014</p>
+               <!-- boton edit experiencia  -->
+             <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarExperiencia">
+              <i class="fa fa-pen"></i>
+             </button>
+                   <!-- boton eliminar experiencia  -->
+             <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+              <i class="fa-solid fa-trash-can"></i>
+             </button>
+             
+              </li>
+              
+             </ul>
+        </div>
+             <div class="col-sm-5">
+              <ul id="info-details">
+              <li>
+              <img src="assets/img/logo-peralta.png" class="rounded-4"alt="logo de la escuela N° 1361 Angela Peralta Pino, Rafaela" width="100">   
+              <h5>Docente de 5°</h5>
+              <p>2015</p>
+              <!-- boton edit experiencia  -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarExperiencia">
+              <i class="fa fa-pen"></i>
+              </button>
+                   <!-- boton eliminar experiencia  -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+              <i class="fa-solid fa-trash-can"></i>
+              </button>
+               </li>
+              <li><img src="assets/img/imagen (2).png" class="rounded-4"
+                alt="logo de la escuela N°1186 DR Lisandro de la Torre, Rafaela" width="100">
+              <h5>Docente de 1°</h5>
+              <p>2016</p>
+              <!-- boton edit experiencia  -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarExperiencia">
+              <i class="fa fa-pen"></i>
+              </button>
+                   <!-- boton eliminar experiencia  -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+              <i class="fa-solid fa-trash-can"></i>
+              </button>
+              </li>
+             </ul>
+            </div> 
+      </div>
+        </div>
+     
+  </div>
+</section>
+<seccion>
+  <!-- cuarto apartado educación -->
+  <div class="card mat-card">
+    <div id="tarjeta">
+      <h2>Educación</h2>
+      <div class="row">
+        <div class="col-sm-6">
+          <ul id="info-details">
+            <li>
+              <img src="assets/img/logo-virgen.png" width="100">
+              <h5>Maria Auxiliadora</h5>
+              <p>Profesorado de Formación Docente <br>
+                Titulo: Profesora de EGB 1 y 2 <br>
+                Año: 2009</p>
+
+                <!-- boton edit experiencia  -->
+                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarEducacion">
+                  <i class="fa fa-pen"></i>
+                 </button>
+                       <!-- boton eliminar experiencia  -->
+                 <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+                  <i class="fa-solid fa-trash-can"></i>
+                 </button>
+            </li>
+            <li>
+              <img src="assets/img/logo_unipe.png" width="200">
+              <h5>Universidad Pedagógica Nacional</h5>
+              <p>Licenciatura<br>
+                Titulo: Licenciada en Enseñanza de la lectura <br>
+                y la escritura para la educación primaria.<br>
+                Cursando
+              </p>
+               <!-- boton edit experiencia  -->
+               <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarEducacion">
                 <i class="fa fa-pen"></i>
-              </a>
-              <input type="text" id="in text">
-              <div class="btn-edit" onclick= "cambiar_parrafo()">
+               </button>
+                     <!-- boton eliminar experiencia  -->
+               <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+                <i class="fa-solid fa-trash-can"></i>
+               </button>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul id="info-details">
+            <li>
+              <img src="assets/img/logo-yoProgramo.png" width="100">
+              <h5>Argentina Programa</h5>
+              <p>Yo Programo<br>
+                Full Stack Developer Jr.<br>
+                Año 2022-2023</p>
+              <!-- boton edit experiencia  -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#editarEducacion">
+                <i class="fa fa-pen"></i>
+               </button>
+                     <!-- boton eliminar experiencia  -->
+               <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#eliminar">
+                <i class="fa-solid fa-trash-can"></i>
+               </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</seccion>
+
+<section>
+  <!-- quinta parte aptitudes  -->
+  <div class="card mat-card">
+    <div id="tarjeta">
+      <div class="card-titles">
+        <h2>Aptitudes</h2>
+        <!-- barra 1  -->
+        <div class="barra-progreso">
+          <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+            <div class="progress-bar bg-success text-dark progress-bar-striped progress-bar-animated" style="width: 25%">25%</div>
+          </div>
+          <!-- Button  lápiz  modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#BarraEditarUno">
+          <i class="fa fa-pen"></i>
+          </button>
+          <!-- Button cesto  modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#BarraEliminarUno">
+          <i class="fa-solid fa-trash-can"></i>
+          </button>
+          
+        </div>
+        <!-- barra 2  -->
+        <div class="barra-progreso">
+          <i class="fa-brands fa-css3-alt fa-beat fa-lg" style="color: #0d5be3;"></i>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+            <div class="progress-bar bg-info text-dark progress-bar-striped progress-bar-animated" style="width: 25%">25%</div>   
+          </div>
+          <!-- Button  lápiz  modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#BarraEditarDos">
+            <i class="fa fa-pen"></i>
+          </button>
+          
+          <!-- Button cesto trigger modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#BarraEliminarDos">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+          
+      
+        <!-- barra 3 -->
+        <div class="barra-progreso">
+          <i class="fa-brands fa-js  fa-lg" style="color: #f1f509;"></i>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+            <div class="progress-bar bg-warning text-dark progress-bar-striped progress-bar-animated" style="width: 15%">15%</div>
+          </div>
+
+          <!-- Button  lápiz trigger modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#BarraEditarTres">
+            <i class="fa fa-pen"></i>
+          </button>
+         
+          <!-- Button cesto trigger modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#BarraEliminarTres">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        
+        <!-- barra 4 -->
+        <div class="barra-progreso">
+          <i class="fa-brands fa-html5 fa-beat fa-lg" style="color: #ea0606;"></i>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100" style="height: 25px">
+            <div class="progress-bar bg-danger text-dark progress-bar-striped progress-bar-animated" style="width: 30%"> 30%</div>
+          </div>
+          <!-- Button  lápiz trigger modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#Modal1">
+            <i class="fa fa-pen"></i>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="ModalUno" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">esto es una ventana modal</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn ">Save changes</button>
+                </div>
               </div>
             </div>
-        </div>
-
-      <!-- tercer apartado -->
-       <div class="card mat-card">
-          <div id="experiencia">
-            <div class="card-titles">
-              <h2>Experiencia</h2>
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <ul id="info-details">
-                    <li><a herf="#"><img src="assets/images/logo_prov.chaco.png" width="100" > 
-                      <h5>Docente de 5°, 3° y 7°</h5></a> 
-                    </li>
-                    <li><a herf="#"><img src="assets/images/image (1).png" width="95"> 
-                    <h5>Docente de 3° y 4°</h5></a>
-                    </li>
-                  </ul>
+          </div>
+          <!-- Button cesto trigger modal -->
+          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#ModalDos">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="ModalDos" tabindex="-1" aria-labelledby="ModalDos" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-sm-4">
-                  <ul id="info-details">
-                    <li><a herf="#"><img src="assets/images/logo-peralta.png" width="100" > 
-                      <h5>Docente de 5°</h5></a> 
-                    </li>
-                    <li><a herf="#"><img src="assets/images/image (2).png" width="100"> 
-                      <h5>Docente de 1°</h5></a>
-                    </li>
-                  </ul>
+                <div class="modal-body">
+                  ...
                 </div>
-            </div>
-               </div>
-                <div class="btn-edit">
-                  <a herf="#" class="btn-right">
-                    <i class="fa fa-plus"></i>
-                  </a>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
+              </div>
             </div>
           </div>
-             
-          
-        
+        </div>
+      </div>
     </div>
-   
+  </div>
+</section>
 
-    <!-- javascrip -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<section>
+  <!-- sexta parte Proyectos -->
+  <div class="card mat-card">
+    <div id="tarjeta">
+      <div class="card-titles">
+        <h2>Proyectos</h2>
+        <h5>Portfolio Web</h5>
+        <p>Año: 2023<br> Trabajo Final de Argentina Programa</p>
+        <!-- boton edit experiencia  -->
+        <div class="btn-edit">
+          <a herf="#" class="btn-right">
+          <i class="fa fa-pen"></i>
+          </a>
+          <a herf="#" class="btn-right">
+          <i class="fa-solid fa-trash-can"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- modal login  -->
+<div class="modal fade" id="ModalReg" tabindex="-1" aria-labelledby="ModalReg" aria-hidden="true">
+   <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="section">
+        <div class="container">
+          <div class="row full-height justify-content-center">
+            <div class="col-12 text-center align-self-center py-5">
+              <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                <h6 class="mb-0 pb-3"><span>Registrate</span><span>Inscribite</span></h6>
+                      <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                      <label for="reg-log"></label>
+                <div class="card-3d-wrap mx-auto">
+                  <div class="card-3d-wrapper">
+                    <div class="card-front">
+                      <div class="center-wrap">
+                        <div class="section text-center">
+                          <h4 class="mb-4 pb-3">Iniciar sesión</h4>
+                          <div class="form-group">
+                            <input type="email" name="logemail" class="form-style" placeholder="Tu Correo" id="logemail" autocomplete="off">
+                            <i class="input-icon uil uil-at"></i>
+                          </div>	
+                          <div class="form-group mt-2">
+                            <input type="password" name="logpass" class="form-style" placeholder="Tu Contraseña" id="logpass" autocomplete="off">
+                            <i class="input-icon uil uil-lock-alt"></i>
+                          </div>
+                          <a href="#" class="btn mt-4">Entrar</a>
+                            <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Olvidate tu contarseña?</a></p>
+                            </div>
+                          </div>
+                        </div>
+                    <div class="card-back">
+                      <div class="center-wrap">
+                        <div class="section text-center">
+                          <h4 class="mb-4 pb-3">Inscribirse</h4>
+                          <div class="form-group">
+                            <input type="text" name="logname" class="form-style" placeholder="Nombre Completo" id="logname" autocomplete="off">
+                            <i class="input-icon uil uil-user"></i>
+                          </div>	
+                          <div class="form-group mt-2">
+                            <input type="email" name="logemail" class="form-style" placeholder="Correo" id="logemail" autocomplete="off">
+                            <i class="input-icon uil uil-at"></i>
+                          </div>	
+                          <div class="form-group mt-2">
+                            <input type="password" name="logpass" class="form-style" placeholder="Contraseña" id="logpass" autocomplete="off">
+                            <i class="input-icon uil uil-lock-alt"></i>
+                          </div>
+                          <a href="#" class="btn mt-4">Entrar</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal foto portada-->
+  <div class="modal fade" id="ingresarFoto" tabindex="-1" aria-labelledby="ingresarFoto" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Foto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Cargar imagen</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+   <!-- Modal foto perfil-->
+   <div class="modal fade" id="ingreFoto" tabindex="-1" aria-labelledby="ingreFoto" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Foto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Cargar imagen</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal editar perfil-->
+  <div class="modal fade" id="editarDatos" tabindex="-1" aria-labelledby="editarDatos" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Datos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <label for="ingresarTexto" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="ingresarTexto">
+          </div>
+          <div>
+            <label for="ingresarTexto" class="form-label">Profesión</label>
+            <input type="text" class="form-control" id="ingresarTexto">
+          </div>
+          <div>
+            <label for="ingresarTexto" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="ingresarTexto">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal añadir sección-->
+  <div class="modal fade" id="ModalAñadirSeccion" tabindex="-1" aria-labelledby="ModalAñadirSerccion"
+  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Añadir Sección</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+        <!-- agregar el esqueleto de una sección  -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn ">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal editar sobre mi-->
+<div class="modal" id="editarSobreMi" tabindex="-1" aria-labelledby="editarSobreMi" aria-hidden="true">
+   <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Texto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-dialog-scrollable">
+          <div>
+            <label for="ingresarTexto" class="form-label">Nombre completo</label>
+            <textarea  class="from" id="ingresarTexto"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ <!-- Modal editar perfil-->
+ <div class="modal fade" id="editarExperiencia" tabindex="-1" aria-labelledby="editarExperiencia" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Datos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <label for="ingresarTexto" class="form-label">Puesto</label>
+          <input type="text" class="form-control" id="ingresarTexto">
+        </div>
+        <div>
+          <label for="ingresarAño" class="form-label">Desde</label>
+          <input type="date" class="form-control" id="ingresarAño">
+        </div>
+        <div>
+          <label for="ingresarAño" class="form-label">Hasta</label>
+          <input type="date" class="form-control" id="ingresarAño">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal eliminar -->
+<div class="modal" id="eliminar" tabindex="-1" aria-labelledby="eliminar" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Estas seguro que quieres Eliminar</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal editar educacion-->
+ <div class="modal fade" id="editarEducacion" tabindex="-1" aria-labelledby="editarEducacion" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar Datos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <label for="ingresarTexto" class="form-label">Nombre Institucion</label>
+          <input type="text" class="form-control" id="ingresarTexto">
+        </div>
+        <div>
+          <label for="ingresarTexto" class="form-label">Titulo</label>
+          <input type="text" class="form-control" id="ingresarTexto">
+        </div>
+        <div>
+          <label for="ingresarAño" class="form-label">Año</label>
+          <input type="date" class="form-control" id="ingresarAño">
+        </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal editar barra 1-->
+<div class="modal fade" id="ModalUno" tabindex="-1" aria-labelledby="Modaluno" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">esto es una ventana modal</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn ">Save changes</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Modal eliminar barra 1-->
+<div class="modal fade" id="ModalDos" tabindex="-1" aria-labelledby="ModalDos" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+   </div>
+
+
+  <!-- javascrip -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
